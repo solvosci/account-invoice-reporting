@@ -1,5 +1,5 @@
 # © 2025 Solvos Consultoría Informática (<http://www.solvos.es>)
-# License LGPL-3 - See http://www.gnu.org/licenses/lgpl-3.0.html
+# License AGPL-3.0 or later (http://www.gnu.org/licenses/agpl).
 {
     "name": "Account Invoice Report Hide Header Data",
     "summary": """
@@ -7,16 +7,16 @@
         - source
         - reference
     """,
-    "author": "Solvos",
-    "license": "LGPL-3",
+    "author": "Solvos," "Odoo Community Association (OCA)",
+    "license": "AGPL-3",
     "version": "17.0.1.0.0",
-    'category': "Accounting & Finance",
-    "website": "https://github.com/solvosci/slv-account",
+    "category": "Accounting & Finance",
+    "website": "https://github.com/OCA/account-invoice-reporting",
     "depends": ["account"],
     "data": [
         "security/account_security.xml",
         "views/res_config_settings_views.xml",
         "reports/account_invoice_template.xml",
     ],
-    'installable': True,
+    "installable": True,
 }
